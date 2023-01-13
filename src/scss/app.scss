@@ -27,3 +27,12 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+// Define variables for background and text colors in /src/scss/base/vars.scss
+$body-color: #f9f9f9;
+$text-color: #333;
+
+// Use the variables to set the background and text colors in /src/scss/base/base.scss
+body {
+  background-color: $body-color;
+  color: $text-color;
+}
