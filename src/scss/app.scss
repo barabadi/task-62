@@ -36,3 +36,31 @@ body {
   background-color: $body-color;
   color: $text-color;
 }
+:root {
+  --body-color: #ff0000;
+  --text-color: #000000;
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10rem;
+  flex-flow: column;
+}
+
+.emoji {
+  color: var(--text-color);
+}
+
+.button {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
